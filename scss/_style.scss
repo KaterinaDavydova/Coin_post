@@ -1,5 +1,5 @@
 .wrapper {
-    background-image: url(/images/grain.svg);
+    background-image: url(../images/grain.svg);
 }
 
 // ----- HEADER -----
@@ -180,7 +180,7 @@
         width: 100%;
         height: 100%;
         opacity: 0.01;
-        background-image: url(/images/lighning-shadow.png);
+        background-image: url(../images/lighning-shadow.png);
         background-repeat: no-repeat;
         background-position: 50% 0;
         background-size: cover;
@@ -336,7 +336,7 @@
     }
 
     .accordion-body.active {
-        height: 100%;
+        height: auto;
         opacity: 1;
         margin-bottom: 10px;
         display: block;
